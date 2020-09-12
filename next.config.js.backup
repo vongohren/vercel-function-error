@@ -1,0 +1,13 @@
+const withPlugins = require('next-compose-plugins');
+const webpack = require('webpack')
+
+const nextConfig = {
+  webpack(config) {
+    config.devtool = 'eval-source-map';
+    return config
+  }
+}
+
+const plugins = []
+
+module.exports = withPlugins(plugins, nextConfig)

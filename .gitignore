@@ -4,9 +4,8 @@ dist
 build
 
 google-auth.json
-config.ts
 
-
+.next/
 # Logs
 logs
 *.log
@@ -25,13 +24,8 @@ typings/
 
 node_modules/
 
-.next
-
 # Firebase cache
 .firebase/
-
-# Next
-next
 
 # Firebase config
 .runtimeconfig.json
@@ -91,5 +85,3 @@ node_modules/
 .env.local
 
 .vercel
-
-config/
